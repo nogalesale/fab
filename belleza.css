@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    background-color: black;
+    text-align: center;
+
+}
+.parrafo{
+    text-align: center;
+    color: brown;
+    background: white;
+    width: 100%;
+    height: 30%;
+
+}
+.titulo{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: purple;
+    height: 50px;
+    
+}

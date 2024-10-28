@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller de Apoyo en Matemáticas y Lenguaje</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 600px;
+            background-color: #a8d5a8;
+            padding: 20px;
+            border: 1px solid #333;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header h2 {
+            margin: 0;
+            color: #333;
+            text-align: center;
+        }
+
+        .header img {
+            width: 60px;
+            height: auto;
+        }
+
+        .content {
+            margin-top: 10px;
+            color: #333;
+        }
+
+        .table-container {
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 8px;
+            border: 1px solid #333;
+        }
+
+        th {
+            background-color: #78c78d;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .signature-section {
+            margin-top: 30px;
+            border-top: 1px dashed #333;
+            padding-top: 10px;
+        }
+
+        .signature-section label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .signature-section input[type="text"] {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .signature-section .firma-telefono {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .firma-telefono input {
+            width: 48%;
+        }
+
+        .btn-submit {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .btn-submit:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h2>TALLER DE APOYO EN MATEMATICAS Y LENGUAJE</h2>
+        <img src="https://i.imgur.com/sFCEyMo.png" alt="Matemáticas y Lenguaje">
+    </div>
+    <div class="content">
+        <p>Señores padres de familia:</p>
+        <p>La casa del Joven, está iniciando talleres de apoyo en matemática, con la finalidad de incentivar el desarrollo del razonamiento lógico, dominio de las cuatro operaciones básicas, apoyo en lectura, escritura y análisis de textos.</p>
+        <p>Las clases se realizaran en horario cruzado. <strong>Por las mañanas los días del siguiente cronograma:</strong></p>
+    </div>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>GRUPO</th>
+                    <th>CURSO</th>
+                    <th>HORA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>G2_Martes y Jueves</td>
+                    <td>4to de Primaria</td>
+                    <td>10:00 - 11:00 am</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="footer">
+        <p>El costo del taller es <strong>GRATUITO</strong> (Las clases son, dos veces por semana) Traer un cuaderno para sus actividades, CUPO LIMITADO.</p>
+        <p>La asistencia a este taller, es una gran oportunidad de aprendizaje y desarrollar el razonamiento.</p>
+        <p><strong>Inicia el .... de Agosto. Inscribirse en la biblioteca del colegio.</strong></p>
+        <p>Atte. Casa del Joven</p>
+    </div>
+    <div class="signature-section">
+        <label>Yo,</label>
+        <input type="text" placeholder="Nombre del padre/madre del niño/a">
+        <label>del curso:</label>
+        <input type="text" placeholder="Curso">
+        <p>estoy de acuerdo en que participe del Taller de Matemáticas y Lenguaje</p>
+        <div class="firma-telefono">
+            <input type="text" placeholder="Firma">
+            <input type="text" placeholder="Teléfono">
+        </div>
+    </div>
+    <button class="btn-submit">Enviar</button>
+</div>
+
+</body>
+</html>
