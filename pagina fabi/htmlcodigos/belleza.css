@@ -64,14 +64,14 @@ body {
 
 /* Extra information with headings */
 .text-box p::before {
-    content: "BELLEZA INTEGRAL\n\n";
+    
     font-weight: bold;
     font-size: 1.2rem;
     color: #7a42f4;
 }
 
 .text-box p::after {
-    content: "\n\nHorario: Martes y Jueves\nMensualidad: 100 Bs/módulo";
+
     display: block;
     font-weight: bold;
     margin-top: 15px;
